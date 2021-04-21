@@ -8678,11 +8678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\Yaroslav Kravets\\Тимчасове\\Room\\Rooms.API\\Rooms.API.csproj",
+      "projectUniqueName": "C:\\Users\\yakravets\\Desktop\\repo\\asp.net\\Room\\Rooms.API\\Rooms.API.csproj",
       "projectName": "Rooms.API",
-      "projectPath": "Y:\\Yaroslav Kravets\\Тимчасове\\Room\\Rooms.API\\Rooms.API.csproj",
+      "projectPath": "C:\\Users\\yakravets\\Desktop\\repo\\asp.net\\Room\\Rooms.API\\Rooms.API.csproj",
       "packagesPath": "C:\\Users\\yakravets\\.nuget\\packages\\",
-      "outputPath": "Y:\\Yaroslav Kravets\\Тимчасове\\Room\\Rooms.API\\obj\\",
+      "outputPath": "C:\\Users\\yakravets\\Desktop\\repo\\asp.net\\Room\\Rooms.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yakravets\\AppData\\Roaming\\NuGet\\NuGet.Config",

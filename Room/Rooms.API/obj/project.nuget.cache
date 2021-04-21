@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "atjh5Yjo1Gk2F11ynRMsbkAlD+RqNTFkraCNJyfBufkqSNYBrvlFk1s1pwK8jzTGvCOOcDnsSyuDIFYf97u8bQ==",
+  "dgSpecHash": "3a6S6u1GnPxhJBLjJa/dKNlLvvySLMarV4GuAiQ12XYbK7W4AZF40NVHL7zA25i5uAEfl96vQXSI33n6MqDJFA==",
   "success": true,
-  "projectFilePath": "Y:\\Yaroslav Kravets\\Тимчасове\\Room\\Rooms.API\\Rooms.API.csproj",
+  "projectFilePath": "C:\\Users\\yakravets\\Desktop\\repo\\asp.net\\Room\\Rooms.API\\Rooms.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yakravets\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\yakravets\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
