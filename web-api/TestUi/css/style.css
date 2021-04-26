@@ -1,0 +1,8 @@
+main{
+    display: flex;
+}
+
+.card{
+    margin: 5px;
+    padding: 10px;
+}
