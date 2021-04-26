@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    margin: 15px;
+}
+
+.row{
+    border: 1px #000 solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.btn{
+    font-weight: bold;
+}
+
+.image{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+img.img-fluid{
+    border-radius: 10%;
+}
+
+img.width{
+    width: 400px;
+    margin-left: 10px;
+    border-radius: 10%;
+}
+
+span.star-fill{
+    color: #ffc107;;
+}
