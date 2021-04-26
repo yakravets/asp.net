@@ -6,3 +6,12 @@ main{
     margin: 5px;
     padding: 10px;
 }
+
+#main, .mb-3, .mb-4{
+    margin: 5px;
+    padding: 5px;
+}
+
+.item{
+    margin-left: 5px;
+}

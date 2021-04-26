@@ -17,6 +17,8 @@ namespace FilmsApi
 {
     public class Startup
     {
+        readonly string allowCORS = "allowCORS";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -29,6 +31,8 @@ namespace FilmsApi
         {
             services.AddDbContext<ApplicationContext>(opt => opt.UseSqlServer(Configuration["ConnectionString"]));
             services.AddControllers();
+            services.AddCors(opt => opt.AddPolicy(allowCORS, builder=> 
+                builder.AllowAnyOrigin()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,6 +48,7 @@ namespace FilmsApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(allowCORS);
 
             app.UseAuthorization();
 

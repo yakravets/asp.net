@@ -56,7 +56,7 @@ namespace FilmsApi.Controllers
         {
             if (film == null)
             {
-                return BadRequest("Bosy is empty");
+                return BadRequest("Body is empty");
             }
 
             _dbContext.Films.Add(new Film
@@ -110,15 +110,15 @@ namespace FilmsApi.Controllers
                 return BadRequest("Genre not found.");
             }
 
-            var newFilm = new Film()
+            var existFilm = _dbContext.Films.FirstOrDefault(x => x.Id == (int)film.Id);
+            if (existFilm == null)
             {
-                Name = film.Name,
-                Genre = genre,
-                Rating = film.Rating,
-                Id = film.Id
-            };
+                return BadRequest("Film not found.");
+            }
 
-            _dbContext.Films.Add(newFilm);
+            existFilm.Name = film.Name;
+            existFilm.Genre = genre;
+            existFilm.Rating = film.Rating;
 
             await _dbContext.SaveChangesAsync();
 
